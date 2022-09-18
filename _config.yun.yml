@@ -35,16 +35,8 @@ reward:
   enable: true
   comment: 我很可爱，请给我钱
   methods:
-    - name: 支付宝
-      path: https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg
-      color: '#00A3EE'
-      icon: ri:alipay-line
-    - name: QQ 支付
-      path: https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png
-      color: '#12B7F5'
-      icon: ri:qq-line
     - name: 微信支付
-      path: https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg
+      path: /images/wechatpay.jpg
       color: '#2DC100'
       icon: ri:wechat-pay-line
 
@@ -53,7 +45,7 @@ comment:
     - waline
     # - giscus
   tips:
-    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/YunYouJun/yunyoujun.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+    - 如果您有任何关于博客内容的相关讨论，欢迎与我交流。
 
 waline:
   enable: true
@@ -96,7 +88,7 @@ footer:
     url: https://sponsors.yunyoujun.cn
     title: 云游君的赞助者们
   beian:
-    enable: true
+    enable: false
     icp: 苏ICP备17038157号
   support:
     enable: true
@@ -195,41 +187,41 @@ social:
     link: /atom.xml # config.feed.path
     icon: ri:rss-line
     color: orange
-  - name: QQ 频道 - 小云之家
+  - name: QQ
     # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=28OEdR&appChannel=share&businessType=9&from=246610&biz=ka
+    link: /images/qqInv.jpg
     icon: ri:qq-line
     color: '#12B7F5'
   - name: GitHub
-    link: https://github.com/YunYouJun
+    link: https://github.com/Lowlowlowlowlowlow
     icon: ri:github-line
     color: '#6e5494'
   - name: 微博
-    link: https://weibo.com/jizhideyunyoujun
+    link: /404
     icon: ri:weibo-line
     color: '#E6162D'
   - name: 豆瓣
-    link: https://www.douban.com/people/yunyoujun/
+    link: /404
     icon: ri:douban-line
     color: '#007722'
   - name: 网易云音乐
-    link: https://music.163.com/#/user/home?id=247102977
+    link: https://music.163.com/#/user/home?id=245884481
     icon: ri:netease-cloud-music-line
     color: '#C20C0C'
   - name: 知乎
-    link: https://www.zhihu.com/people/yunyoujun/
+    link: https://www.zhihu.com/people/li-guang-hua-77/
     icon: ri:zhihu-line
     color: '#0084FF'
   - name: 哔哩哔哩
-    link: https://space.bilibili.com/1579790
+    link: https://space.bilibili.com/62625958
     icon: ri:bilibili-line
     color: '#FF8EB3'
   - name: 微信公众号
-    link: https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg
+    link: /404
     icon: ri:wechat-2-line
     color: '#1AAD19'
   - name: Twitter
-    link: https://twitter.com/YunYouJun
+    link: /404
     icon: ri:twitter-line
     color: '#1da1f2'
   # - name: Telegram
@@ -237,20 +229,20 @@ social:
   #   icon: ri:telegram-line
   #   color: "#0088CC"
   - name: Telegram Channel
-    link: https://t.me/elpsycn
+    link: /404
     # icon: ri:telegram-fill
     icon: ri:telegram-line
     color: '#0088CC'
   - name: Discord
-    link: https://discord.gg/nd3mPkU5j8
+    link: /404
     icon: ri:discord-line
     color: '#5A6DE2'
   - name: E-Mail
-    link: mailto:me@yunyoujun.cn
+    link: 2210275050@email.szu.edu.cn
     icon: ri:mail-line
     color: '#8E71C1'
   - name: Travelling
-    link: https://travellings.link
+    link: /404
     icon: ri:train-line
     color: black
 # pjax:
