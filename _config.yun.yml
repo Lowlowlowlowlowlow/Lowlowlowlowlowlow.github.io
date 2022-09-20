@@ -42,14 +42,16 @@ reward:
 
 comment:
   candidates:
+  enable: true
     - waline
+    - utterances
     # - giscus
   tips:
     - 如果您有任何关于博客内容的相关讨论，欢迎与我交流。
 
 waline:
   enable: true
-  serverURL: https://waline.yunyoujun.cn
+  serverURL: https://blog-comment-sage-rho.vercel.app
   visitor: true
   comment: true
   emoji:
@@ -83,13 +85,13 @@ giscus:
   theme: light
 
 footer:
-  since: 2016
+  since: 2022
   icon:
     url: /404
     title: /404
   beian:
     enable: false
-    icp: 苏ICP备17038157号
+    icp: 学园ICP备17038157号
   support:
     enable: true
     title: 又拍云
@@ -101,6 +103,9 @@ footer:
 
 engine_search:
   enable: false
+
+local_search:
+  enable: true
 
 # If you want to use it, you need config algolia appID in _config.yml!!!
 # https://github.com/oncletom/hexo-algolia
@@ -142,9 +147,12 @@ tags:
   部落: '#DD306A'
   科幻: midnightblue
   蚂蚁森林: '#54a892'
+  碎碎念: 'green'
+  想太多: 'blue'
 
 categories:
-  云游的小视频: '#FB7299'
+  日寄: '#FB7299'
+  花手: '#0066B8'
 
 pages:
   - name: 我的小伙伴们
@@ -171,14 +179,36 @@ google_tagmanager:
   enable: true
   id: GTM-M9KWR9L
 
-#wordcount:
- # enable: true
+#wordcount
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+#壁纸
+bg_image:
+  enable: true
+  url: /images/wall.jpg
+  opacity: 0.8
+
+#彩词云
+wordcloud:
+  enable: true
 
 say:
   #api: https://el-bot-api.vercel.app/api/words/young
   api: /data/sentences.json
   hitokoto:
     enable: false
+
+#烟花
+fireworks:
+  enable: true
+  colors:
+    - '0, 255, 0'
+    - '255, 255, 0'
+    - '255, 0, 0'
+
 
 social:
   - name: RSS

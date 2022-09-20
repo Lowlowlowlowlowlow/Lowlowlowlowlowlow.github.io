@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://lowlowlowlowlowlow.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -119,7 +119,7 @@ deploy:
 
 #live2d
 live2d:
-  enable: true
+  enable: false
   # 推荐使用 jsdelivr 的 CDN 来加载
   scriptFrom: jsdelivr
   pluginRootPath: live2dw/
@@ -252,3 +252,5 @@ widget_tree:
   toc:
     enable: true
     list_number: false
+
+

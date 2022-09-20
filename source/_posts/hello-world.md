@@ -1,5 +1,9 @@
 ---
 title: Hello world
+categories:
+- 日寄	
+tags:
+- 碎碎念
 ---
 
 

@@ -1,5 +1,10 @@
 ---
 title: 关于选择
+categories:
+- 日寄	
+tags:
+- 碎碎念
+- 想太多
 ---
 
 
