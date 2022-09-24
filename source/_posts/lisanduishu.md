@@ -1,5 +1,6 @@
 ---
 title: 离散对数
+katex: true
 categories:
 - 计算机相关	
 tags:
