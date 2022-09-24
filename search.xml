@@ -30,4 +30,33 @@
         <tag>碎碎念</tag>
       </tags>
   </entry>
+  <entry>
+    <title>离散对数</title>
+    <url>/2022/09/24/lisanduishu/</url>
+    <content><![CDATA[<h1 id="离散对数问题"><a href="#离散对数问题" class="headerlink" title="离散对数问题"></a>离散对数问题</h1><h2 id="欧拉函数"><a href="#欧拉函数" class="headerlink" title="欧拉函数"></a>欧拉函数</h2><p>欧拉函数是以鼎鼎大名的数学家欧拉的名字命名的函数，定义如下：</p>
+<p><strong>对于正整数n，欧拉函数 $\varphi(n)$是小于或者等于n的正整数中与n互质的数的数目。</strong></p>
+<p><em>举个例子 :</em></p>
+<p>如果n&#x3D;7，那么小于等于7的正整数中和7互质的数有1，2，3，4，5，6一共6个数，即 <strong>$\varphi(7)$ &#x3D; 6</strong> ;</p>
+<p>如果n&#x3D;10，那么小于等于10的正整数中和10互质的数有1，3，7，9一共4个数，即 <strong>$\varphi(10)$ &#x3D; 4</strong> ;</p>
+<p>由此可见<strong>欧拉函数</strong>实际上表示的是一个正整数n，有多少个小于它并且和它互质的正整数，即一个具体的数量。</p>
+<h2 id="欧拉定理"><a href="#欧拉定理" class="headerlink" title="欧拉定理"></a>欧拉定理</h2><p><strong>若n,a为正整数，且n,a互质，则 a$^{\varphi(n)}$ $\equiv$ 1 (mod n)</strong></p>
+<p>这个公式的意思是 a的 $\varphi(n)$ 次方除以n得到的余数等于1，更科学的说法为模n余1。</p>
+<p>很神奇吧，不妨举个例子验证一下：</p>
+<p>令a&#x3D;3，n&#x3D;7，上面已经知道 $\varphi(7)$ &#x3D; 6 ，那么 3$^{\varphi(7)}$ &#x3D; 3$^{6}$ &#x3D; 9 , 729除以7商104余1，刚好和欧拉定理描述的一致。</p>
+<p>##原根</p>
+<p>原根是数论中非常重要的概念，定义如下：</p>
+<p>若n,a为正整数，且n,a互质，令 a$^{d}$ $\equiv$ 1 (mod n)，如果用 $\delta$(n,a) 表示使该式成立的最小的正整数d，此时如果 $\delta(n,a)$ &#x3D; $\varphi(n)$, 则称a为模n的原根。</p>
+<p><strong>求解$7^{222}$ mod 10</strong></p>
+<p>$7^{222}$ &#x3D; $(7^{4})^{55}$ $\cdot$ $7^{2}$ $\equiv$ $(1)^{55}$ $\cdot$ $7^{2}$ $\equiv$ 49 $\equiv$ 9 (mod 10)</p>
+<h2 id="离散对数"><a href="#离散对数" class="headerlink" title="离散对数"></a>离散对数</h2><p><strong>如果对于一个整数b和质数p的一个原根a，可以找到一个唯一的指数i，使得：</strong></p>
+<p><strong>b &#x3D; $a^{i}$ (mod p) 其中 $0 \leqslant i \leqslant p-1$ 成立，那么指数i称为b的以a为基数的模p的离散对数。</strong></p>
+<p>离散对数难题是指：当已知一个大质数p和它的一个原根a，如果给定一个b，要计算i的值是相当困难的。</p>
+]]></content>
+      <categories>
+        <category>计算机相关</category>
+      </categories>
+      <tags>
+        <tag>密码学</tag>
+      </tags>
+  </entry>
 </search>
